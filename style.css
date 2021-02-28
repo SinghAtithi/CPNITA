@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fceeb5;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  background-color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 30px;
+  margin-top: 2rem;
+  width: 400px;
+  height: 250px;
+  background-color: #4db6ac;
+  display: flex;
+}
+
+.face {
+  /* display: flex;
+  flex-direction: column;
+  justify-content:space-around; */
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  width: 35%;
+  border-radius: 30px;
+  background-color: #e57373;
+  box-shadow: 18px 12px 63px -6px rgba(0, 0, 0, 0.77);
+}
+.image {
+  margin-top: 0.5rem;
+  margin-left: 0.8rem;
+  height: 40%;
+  width: 80%;
+  border-radius: 45%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: white;
+}
+
+.star {
+  text-align: center;
+  margin: 0.2rem;
+}
+
+.rating {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0.5rem;
+}
+
+.desc {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0rem;
+  line-height: 120%;
+}
+
+.name {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  line-height: 130%;
+  padding: 5px;
+  margin-left: 0.7rem;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+  }
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.codechef{
+  width: 120px;
+  height: 25px;
+  background-color: #e57373;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  /* text-align: center; */
+  text-decoration: none;
+  margin-left: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.github{
+  width: 120px;
+  height: 25px;
+  background-color: #263238 ;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  /* text-align: center; */
+  text-decoration: none;
+  margin-left: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
